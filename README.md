@@ -16,6 +16,6 @@ Chain: The RunnableSequence chain = prompt_template | llm combines these two com
 
 Handling Edge Cases
 
-Nested HTML: The prompt instructs the LLM to focus on <li class="result-item"> tags, which represent individual facilities. By sending only the relevant HTML snippets to the LLM , it avoids getting confused by the deeply nested elements.
+Nested HTML: The prompt instructs the LLM to focus on '''<li class="result-item">''' tags, which represent individual facilities. By sending only the relevant HTML snippets to the LLM , it avoids getting confused by the deeply nested elements.
 Map-only data: The current solution relies on the text-based search results. If a page only contains map data without corresponding HTML list items, the BeautifulSoup selector soup.select('ul.result-list > li.result-item') will return an empty list. In this case, the LLM will receive no HTML and will not be able to extract any facilities. 
 Inconsistent labeling: The prompting strategy is designed to handle this by making the LLM to get the materials_category from the materials_accepted list. Meaning, even if a facility's HTML doesn't explicitly state "Electronics," the LLM can get the category if the accepted materials include "Computers" and "Smartphones," for example.
