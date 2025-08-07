@@ -1,0 +1,78 @@
+[
+  {
+    "business_name": "New York City Bulk Item Curbside Program",
+    "last_update_date": "Unknown",
+    "street_address": "New York, NY 10001",
+    "materials_category": [
+      "Electronics"
+    ],
+    "materials_accepted": [
+      "Dehumidifiers",
+      "Humidifiers",
+      "Air Conditioners",
+      "Barbeque Grills",
+      "Carpet",
+      "Carpet Padding",
+      "Dishwashers"
+    ]
+  },
+  {
+    "business_name": "IMobile LLC",
+    "last_update_date": "Unknown",
+    "street_address": "370 7th Ave, New York, NY 10001",
+    "materials_category": [
+      "Electronics"
+    ],
+    "materials_accepted": [
+      "Cell Phone Accessories",
+      "Cell Phones"
+    ]
+  },
+  {
+    "business_name": "The 4th Bin",
+    "last_update_date": "Unknown",
+    "street_address": "307 7th Ave, New York, NY 10001",
+    "materials_category": [
+      "Electronics"
+    ],
+    "materials_accepted": [
+      "Cell Phones",
+      "Desktop Computers",
+      "Inkjet Cartridges",
+      "LCD Computer Monitors",
+      "LCD Televisions",
+      "MP3 Players",
+      "Toner Cartridges"
+    ]
+  },
+  {
+    "business_name": "Sprint Store",
+    "last_update_date": "Unknown",
+    "street_address": "126 W 34th St, New York, NY 10001",
+    "materials_category": [
+      "Electronics"
+    ],
+    "materials_accepted": [
+      "Cell Phone Accessories",
+      "Cell Phones"
+    ]
+  },
+  {
+    "business_name": "Willoughby's",
+    "last_update_date": "Unknown",
+    "street_address": "298 5th Ave, New York, NY 10001",
+    "materials_category": [
+      "Electronics",
+      "Batteries"
+    ],
+    "materials_accepted": [
+      "Cell Phones",
+      "Desktop Computers",
+      "Game Consoles",
+      "MP3 Players",
+      "Telephones",
+      "Lithium-ion Batteries",
+      "Nickel-cadmium Batteries"
+    ]
+  }
+]
